@@ -19,15 +19,15 @@
     "opam2nix": {
       "flake": false,
       "locked": {
-        "lastModified": 1648293379,
-        "narHash": "sha256-pktZ/3qr/1H4CBm5048yrAWpo9k8QmKPQmEEyDzZXa8=",
-        "owner": "timbertson",
+        "lastModified": 1642692068,
+        "narHash": "sha256-2DXL3Gd1z21XufyuAb6YpkAIAPhWD3EPv1CZIf1b/uc=",
+        "owner": "dwarfmaster",
         "repo": "opam2nix",
-        "rev": "7f2f20f8e499b948f35c72b95ce54e050767ce02",
+        "rev": "095311f54c37d2230c1987ea1a99b4911ec4a9b2",
         "type": "github"
       },
       "original": {
-        "owner": "timbertson",
+        "owner": "dwarfmaster",
         "repo": "opam2nix",
         "type": "github"
       }

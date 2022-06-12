@@ -1,7 +1,7 @@
 {
   inputs = {
     nixpkgs.url = github:nixos/nixpkgs/nixos-22.05;
-    opam2nix.url = github:timbertson/opam2nix;
+    opam2nix.url = github:dwarfmaster/opam2nix;
     opam2nix.flake = false;
   };
 
