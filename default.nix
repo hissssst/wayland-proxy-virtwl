@@ -1,7 +1,6 @@
-with import <nixpkgs> {};
+{ pkgs, opam2nix, ... }:
 let
-  ocaml = ocaml-ng.ocamlPackages_4_12.ocaml;
-  opam2nix = import ./nix/opam2nix.nix;
+  ocaml = pkgs.ocaml-ng.ocamlPackages_4_12.ocaml;
   selection = opam2nix.build {
     inherit ocaml;
     selection = ./nix/opam-selection.nix;

@@ -1,0 +1,44 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1654936503,
+        "narHash": "sha256-soKzdhI4jTHv/rSbh89RdlcJmrPgH8oMb/PLqiqIYVQ=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "dab6df51387c3878cdea09f43589a15729cae9f4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-22.05",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "opam2nix": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1648293379,
+        "narHash": "sha256-pktZ/3qr/1H4CBm5048yrAWpo9k8QmKPQmEEyDzZXa8=",
+        "owner": "timbertson",
+        "repo": "opam2nix",
+        "rev": "7f2f20f8e499b948f35c72b95ce54e050767ce02",
+        "type": "github"
+      },
+      "original": {
+        "owner": "timbertson",
+        "repo": "opam2nix",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "opam2nix": "opam2nix"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
